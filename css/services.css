@@ -1,0 +1,123 @@
+@charset "utf-8";
+.whats_call{
+	position: fixed;
+	bottom: 170px;
+	z-index: 10;
+}
+.whatsapp_img{
+	border-radius: 50%;
+	float: right;
+	margin-right: 60px;
+	background-size: cover;
+}
+.phone_call{
+	position: fixed;
+	bottom: 80px;
+	z-index: 10;
+}
+.phone_img{
+	border-radius: 50%;
+	background-position: center;
+	float: right;
+	margin-right: 60px;
+	background-size: cover;
+}
+.nav-item{
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+	background: transparent;
+	position: relative;
+}
+.nav-link:hover{
+	color: orange;
+}
+.nav-item:hover{
+	border: 0;
+	border-radius: 5px;
+	color: red;
+	box-shadow: 0 0 3px #ffe205, 0 0 5px #ffe205, 0 0 7px #edd205;
+}
+h1{
+	font-family: 'Abril Fatface', cursive;
+	   
+}
+h2{
+	 font-family: 'Great Vibes', cursive;
+}
+.carousel-inner{
+	height: 93vh;
+	width: 100%;
+}
+.carousel-item{
+	height: 93vh;
+	padding: 0px;
+	margin: 0px;
+}
+.carousel-caption{
+	bottom: 290px;
+	z-index: 1;
+}
+.carousel-caption h1{
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.carousel-caption h2{
+	width: 60%;
+	margin: auto;
+	font-size: 30px;
+	line-height: .9;
+}
+#services {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+#services .service-item {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#services .service-item i {
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: #9c27b0;
+}
+
+#services .service-item h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: red;
+}
+
+footer {
+  padding: 60px 0;
+}
+
+footer h4 {
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #f5a623;
+}
+
+footer hr {
+  margin-top: 60px;
+}
+
+footer p.text-center {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
